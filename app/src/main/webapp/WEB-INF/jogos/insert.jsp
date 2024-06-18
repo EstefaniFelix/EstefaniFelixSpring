@@ -4,12 +4,12 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Novo Jogos</title>
+        <title>Novo Jogo</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <div class="container">
-            <h1>Novo Jogos</h1>
+            <h1>Novo Jogo</h1>
             <form action="/jogos/insert" method="post">
                 <div>
                     <label class="form-label">Título:</label>
@@ -23,7 +23,7 @@
                         </c:forEach>
                     </select>
                 </div>
-
+ 
                 <br />
                 <a href="/jogos/list" class="btn btn-secondary">Voltar</a>
                 <button type="submit" class="btn btn-success">Salvar</button>
