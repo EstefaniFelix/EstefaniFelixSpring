@@ -4,18 +4,18 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Remover Livros</title>
+        <title>Remover Jogos</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <div class="container">
-            <h1>Remover Livros</h1>
-            <p>Tem certeza que deseja remover o livro ${livro.titulo} ?</p>
-            <form action="/livros/delete" method="post">
-                <input type="hidden" name="id" value="${livro.id}" />
+            <h1>Remover Jogos</h1>
+            <p>Tem certeza que deseja remover o jogo ${jogos.titulo} ?</p>
+            <form action="/jogos/delete" method="post">
+                <input type="hidden" name="id" value="${jogos.id}" />
 
                 <br />
-                <a href="/livros/list" class="btn btn-secondary">Voltar</a>
+                <a href="/jogos/list" class="btn btn-secondary">Voltar</a>
                 <button type="submit" class="btn btn-success">Salvar</button>
             </form>
         </div>
